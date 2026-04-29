@@ -5,6 +5,13 @@ export interface User {
     role: string;
 }
 
+export interface UserUpdateInput {
+  name?: string;
+  email?: string;
+  password?: string;
+  role?: string; // admin only
+}
+
 export interface RegisterInput {
     name: string;
     email: string;
