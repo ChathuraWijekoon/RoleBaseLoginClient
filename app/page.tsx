@@ -1,6 +1,6 @@
 import RegisterForm from "./components/RegisterForm";
-// import LoginForm from "./components/LoginForm";
-// import Users from "./components/Users";
+import LoginForm from "./components/LoginForm";
+import Users from "./components/Users";
 
 export default function Home() {
   return (
@@ -8,10 +8,10 @@ export default function Home() {
       <h1>FastAPI Auth UI</h1>
 
       <RegisterForm />
-      {/* <hr />
+      <hr />
       <LoginForm />
       <hr />
-      <Users /> */}
+      <Users />
     </main>
   );
 }
